@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug swift (src/creational/singleton/swift)",
+      "program": "${workspaceFolder:luis-otavio-miranda}/src/creational/singleton/swift/.build/debug/swift",
+      "args": [],
+      "cwd": "${workspaceFolder:luis-otavio-miranda}/src/creational/singleton/swift",
+      "preLaunchTask": "swift: Build Debug swift (src/creational/singleton/swift)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release swift (src/creational/singleton/swift)",
+      "program": "${workspaceFolder:luis-otavio-miranda}/src/creational/singleton/swift/.build/release/swift",
+      "args": [],
+      "cwd": "${workspaceFolder:luis-otavio-miranda}/src/creational/singleton/swift",
+      "preLaunchTask": "swift: Build Release swift (src/creational/singleton/swift)"
+    }
+  ]
+}
